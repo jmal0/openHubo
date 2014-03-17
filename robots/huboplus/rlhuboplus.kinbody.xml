@@ -984,14 +984,14 @@
         </mass>
     </body>
 
-    <Joint name="NK1" type="hinge">
+    <Joint name="NKY" type="hinge">
         <body>Body_Torso</body>
         <body>Body_NK1</body>
-        <offsetfrom>Body_NK1</offsetfrom>
-        <axis>1 1 0</axis>
-        <limitsdeg>-30 30</limitsdeg>
+        <offsetfrom>Body_Torso</offsetfrom>
+        <axis>0 0 1</axis>
+        <limitsdeg>-180 180</limitsdeg>
 		<maxvel>18.00</maxvel>
-		<maxtorque>2.7</maxtorque>
+		<maxtorque>9.0</maxtorque>
     </Joint>
 
     <body name="Body_NK2" type="dynamic">
